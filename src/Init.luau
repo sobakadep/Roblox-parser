@@ -9,8 +9,8 @@ local Module = {
 	Version = "1.0.8",
 	Author = "Depso",
 	License = "GNU-GPLv3",
-	Repository = "https://github.com/depthso/Roblox-parser",
-	ImportUrl = "https://raw.githubusercontent.com/depthso/Roblox-parser/refs/heads/main",
+	Repository = "https://github.com/sobakadep/Roblox-parser",
+	ImportUrl = "https://raw.githubusercontent.com/sobakadep/Roblox-parser/refs/heads/main",
 
 	Modules = {
 		Formatter = require("@src/Formatter"),
@@ -50,5 +50,6 @@ function Module:New(Data: Table): Table
 
 	return Class
 end
+
 
 return Module
